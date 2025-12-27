@@ -6,3 +6,14 @@ A personal operating system project built for learning, experimentation, and ful
 This project explores how operating systems work at a low level, from booting to user interaction.
 
 > Warning: This OS is a work in progress and not intended for production use.
+
+## Prerequisites
+- nasm
+- qemu-system-x86_64
+
+## Execution
+To run the OS run the following commands:
+```bash
+make clean
+make run
+```
